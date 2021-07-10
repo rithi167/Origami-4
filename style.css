@@ -1,0 +1,59 @@
+
+h1 {
+    color: blue;
+}
+
+* {
+    border: solid;
+}
+
+a:link{
+ color:rgb(20, 175, 41)
+}
+a:visited{
+    color:rgb(236, 58, 34)
+}
+
+.header{
+background-color:aquamarine;
+display:flex;
+justify-content:space-between;
+}
+
+.menu{
+background-color: rgb(229, 198, 236);
+display: flex;
+justify-content:space-between;
+}
+
+body{
+    margin: 0px;
+    background-color: azure;
+}
+.Image{
+background-color:rgb(170, 223, 224);
+display:flex;
+flex-wrap:wrap;
+padding: 20px;
+
+}
+
+.Image:hover{
+    transform: scale(0.8);
+}
+
+.Image1{
+    background-color:rgb(233, 209, 173);
+    display:flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    }
+.bodyimg{
+    position: relative
+}
+
+
+.Image1:hover{
+        transform: scale(0.8);
+    }
+    
